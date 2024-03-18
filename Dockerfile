@@ -1,5 +1,5 @@
 FROM httpd:latest
 
 WORKDIR /var/www/html
-COPY .
+COPY . /var/www/html
 EXPOSE 80
